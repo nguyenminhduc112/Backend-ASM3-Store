@@ -17,9 +17,6 @@ const productRouters = require('./routers/product')
 const authRouters = require('./routers/auth')
 const cartRouters = require('./routers/cart')
 const orderRouters = require('./routers/order')
-
-// app.use(cookieParser());
-
 // Fix Error CORS
 app.use(cors())
 
